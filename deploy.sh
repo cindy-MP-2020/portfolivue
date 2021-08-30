@@ -8,6 +8,6 @@ git init
 git add -A
 git commit -m 'deploy'
 
-git push -f git@github.com:cindy-MP-2020/portfolivue.git main:gh-pages
+git push -f https://github.com/cindy-MP-2020/test.git master:gh-pages
 
 cd -
