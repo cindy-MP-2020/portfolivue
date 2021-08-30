@@ -4,8 +4,7 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "deploy": "gh-pages -d dist"
+    "build": "vue-cli-service build"
   },
   "dependencies": {
     "core-js": "^3.6.5",
@@ -27,6 +26,5 @@
   "main": "babel.config.js",
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "homepage": "https://cindy-MP-2020.github.io/portfolivue"
+  "license": "ISC"
 }
