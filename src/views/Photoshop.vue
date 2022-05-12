@@ -19,9 +19,9 @@ export default {
 </script>
 
 <style>
-body {
+/* body {
   background-color: hsl(0, 0%, 93%);
-}
+} */
 /* list transitions */
 .list-enter-from {
   opacity: 0;
