@@ -29,13 +29,13 @@ body {
 }
 .h1text {
   font-size: 100px;
-  color: rgb(255, 255, 255);
+  color: rgb(88, 66, 185);
   font-weight: 800;
 }
 .h2text {
   font-size: 40px;
   margin-top: 0;
-  color: rgb(255, 255, 255);
+  color: rgb(88, 66, 185);
   font-weight: 600;
 }
 </style>
