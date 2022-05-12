@@ -1,9 +1,11 @@
 <template>
+<div class="gray">
   <transition name="fade" appear>
     <div class="ps">
         <Display type="photoshop" total="12"/>
     </div>
   </transition>
+<div>
 </template>
 
 
@@ -19,9 +21,9 @@ export default {
 </script>
 
 <style>
-/* body {
+.gray {
   background-color: hsl(0, 0%, 93%);
-} */
+}
 /* list transitions */
 .list-enter-from {
   opacity: 0;
