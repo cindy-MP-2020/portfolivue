@@ -1,7 +1,6 @@
 import * as THREE from 'three';
 
 const scene = new THREE.Scene();
-scene.background = new THREE.Color( 0xC0CCFF );
 
 const camera = new THREE.PerspectiveCamera(75, window.innerWidth/window.innerHeight, 0.1, 1000);
 
@@ -14,6 +13,8 @@ renderer.setSize(window.innerWidth,window.innerHeight)
 camera.position.setZ(30);
 
 renderer.render(scene,camera)
+
+renderer.setClearColorHex( 0xC0CCFF, 1 );
 
 const geometry = new THREE.TorusGeometry(10,3,16,100)
 const material = new THREE.MeshBasicMaterial({color:0xFF6347, wireframe:true})
