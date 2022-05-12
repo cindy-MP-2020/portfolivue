@@ -4,7 +4,6 @@
       <div class="container">
         <h1 class="h1text">HELLO</h1>
         <h2 class="h2text">My Name is Cindy And This is My Portfolio</h2>
-        <a href="/data/Cindy_Su_Resume_2021.pdf" target="_blank">View my resume here</a>
       </div>
     </transition>
     <threejsBg/>
@@ -26,17 +25,17 @@ export default {
 
 <style>
 body {
-  background-color: rgb(236, 236, 236);
+  background-color: rgb(80, 64, 64);
 }
 .h1text {
   font-size: 100px;
-  color: rgb(214, 214, 214);
+  color: rgb(255, 255, 255);
   font-weight: 800;
 }
 .h2text {
   font-size: 40px;
   margin-top: 0;
-  color: rgb(214, 214, 214);
+  color: rgb(255, 255, 255);
   font-weight: 600;
 }
 </style>
