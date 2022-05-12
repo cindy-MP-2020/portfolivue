@@ -25,7 +25,7 @@ export default {
 
 <style>
 body {
-  background-color: rgb(80, 64, 64);
+  background-color: hsl(0, 0%, 0%);
 }
 .h1text {
   font-size: 100px;
