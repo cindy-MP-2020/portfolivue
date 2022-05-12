@@ -20,7 +20,7 @@ export default {
 
 <style>
 body {
-  background-color: hsl(0, 0%, 83%);
+  background-color: hsl(0, 0%, 93%);
 }
 /* list transitions */
 .list-enter-from {
