@@ -2,11 +2,10 @@
   <transition name="fade" appear>
     <div id="nav">
       <router-link to="/">Home</router-link>
+      <router-link to="/id">Industrial Design</router-link>
       <router-link to="/ui">UI Design</router-link>
-      <router-link to="/photoshop">Photoshop</router-link>
-      <router-link to="/illustrator">Illustrator</router-link>
-      <router-link to="/model">3D work</router-link>
-      <router-link to="/three">Three.js</router-link>
+      <router-link to="/photoshop">Painting</router-link>
+      <router-link to="/model">Other work</router-link>
     </div>
   </transition>
   <router-view/>

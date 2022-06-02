@@ -8,6 +8,9 @@
       <a href="https://my.spline.design/bunny-fe989f0d7478e2b311f751d76e0b325e/" target="_blank" key="2">
         <img class="img2" src="../assets/img/3D/bunnyPic.jpg" alt="img">
       </a>
+      <a href="https://cindy-mp-2020.github.io/Three_Project2/" target="_blank" key="3">
+        <img class="img3" src="../assets/img/three/img1.jpg" alt="img">
+      </a>
     </transition-group>
     <!-- <iframe src='https://my.spline.design/bunny-fe989f0d7478e2b311f751d76e0b325e/' frameborder='0' width='600px' height='600px'></iframe>
     <iframe src='https://my.spline.design/city-55808760887c76c2ce273a763127ca65/' frameborder='0' width='600px' height='600px'></iframe> -->

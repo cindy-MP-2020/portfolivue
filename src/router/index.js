@@ -1,16 +1,20 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../views/Home.vue'
+import ID from '../views/ID.vue'
 import Photoshop from '../views/Photoshop.vue'
-import Illustrator from '../views/Illustrator.vue'
 import Model from '../views/3D.vue'
 import ui from '../views/UI.vue'
-import Three from '../views/Three.vue'
 
 const routes = [
   {
     path: '/',
     name: 'Home',
     component: Home
+  },
+  {
+    path: '/id',
+    name: 'id',
+    component: ID
   },
   {
     path: '/ui',
@@ -27,20 +31,10 @@ const routes = [
     // component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
   },
   {
-    path: '/illustrator',
-    name: 'Illustrator',
-    component: Illustrator
-  },
-  {
     path: '/model',
     name: 'Model',
     component: Model
-  },
-  {
-    path: '/three',
-    name: 'Three',
-    component: Three
-  },
+  }
 ]
 
 const router = createRouter({
